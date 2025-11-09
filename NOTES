@@ -1,0 +1,47 @@
+🧭 Notas del Proyecto
+
+Descripción:
+Este documento recopila el progreso, ideas y hitos alcanzados durante el desarrollo del proyecto. Funciona como una bitácora técnica y de evolución del sistema.
+
+📅 Día 1 – Creación de la Idea y Montajes Iniciales
+
+Objetivo: Establecer la base del entorno de trabajo y realizar las primeras pruebas de comunicación entre los diferentes componentes del sistema.
+
+Actividades:
+
+Definición de la idea principal del proyecto y planificación inicial.
+
+Creación del repositorio Git y configuración del entorno de desarrollo.
+
+Desarrollo de un código de prueba en Arduino utilizando la librería del sensor DHT11 (temperatura y humedad relativa). Se realizaron mediciones básicas para verificar el funcionamiento.
+
+Creación de un proyecto Java para comunicarse con Arduino mediante la librería jSerialCom. Se implementó el envío de comandos (por ejemplo, “medir humedad”) y la recepción de datos para validar la comunicación serial.
+
+Integración de la librería JDBC en el proyecto Java para conectar con una base de datos MySQL, inicialmente en entorno local (XAMPP).
+
+Creación de la base de datos y de una tabla para almacenar las mediciones. Se verificó la correcta inserción de datos provenientes de Arduino.
+
+Desarrollo de un Backend con API REST, que permitirá a futuras aplicaciones móviles acceder a los datos almacenados en la base de datos.
+
+Resumen del día:
+✅ Arduino recibe órdenes desde Java y devuelve datos correctamente.
+✅ Java gestiona la comunicación y guarda los valores en MySQL.
+✅ La API REST está operativa y conectada a la base de datos.
+✅ MySQL lista y funcional para las próximas etapas.
+
+📅 Día 2 – Mejoras en la Comunicación y Preparación para Pruebas Continuas
+
+Objetivo: Optimizar la comunicación entre Java y Arduino, y realizar una sesión de medición continua para evaluar estabilidad y desempeño.
+
+Actividades:
+
+Revisión y estudio de métodos para simplificar y robustecer la comunicación con Arduino, con la meta de mantener un diseño modular que permita futuras integraciones con IA.
+
+Actualización del código en Arduino y Java para habilitar una sesión de medición continua (temperatura y humedad) durante un ciclo completo de 24 horas.
+
+Actualización y subida de los códigos al repositorio Git para mantener un registro claro de los avances y cambios realizados.
+
+Resumen del día:
+📈 Comunicación más estable entre los módulos.
+📡 Preparación de pruebas de lectura continua.
+🗂️ Repositorio actualizado con las versiones más recientes.
